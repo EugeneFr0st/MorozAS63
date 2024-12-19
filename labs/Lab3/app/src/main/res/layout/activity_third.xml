@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRouteParam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите страну" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите область" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите район" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите город" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите улицу" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите номер дома" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
