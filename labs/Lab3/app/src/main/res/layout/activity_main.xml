@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Телефон" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration" />
+
+    <TextView
+        android:id="@+id/footerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выполнил Мороз Евгений АС-63"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

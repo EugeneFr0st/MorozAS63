@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </org.osmdroid.views.MapView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="80dp">
+
+        <Button
+            android:id="@+id/visitedPlaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Поставить метку" />
+
+        <Button
+            android:id="@+id/centerOnUserButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/my_location_svgrepo_com"
+            android:text="Пользователь" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="690dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:text="@string/author" />
+</RelativeLayout>

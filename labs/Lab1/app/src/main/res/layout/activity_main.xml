@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/searchQueryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите запрос" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поиск" />
+
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder" />
+
+    <TextView
+        android:id="@+id/imageSourceUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="URL изображения" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Скачать" />
+
+    <Button
+        android:id="@+id/openWebsiteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Открыть сайт" />
+
+</LinearLayout>
